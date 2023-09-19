@@ -1,0 +1,45 @@
+/* Estilo para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d1c8ff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para os rótulos */
+label {
+  margin-left: 40px;
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Estilo para os campos de entrada de texto e número */
+input[type="text"],
+input[type="number"],
+select {
+  margin-left: 40px;
+  width: 60%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #b5b0fe;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Estilo para o botão */
+#botao {
+  background-color: #affbff;
+  color: #ff0092;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#botao:hover {
+  background-color: #b6ff00;
+}
